@@ -8,7 +8,7 @@ body {
     background-color: #f0f0f0;
     color: #333;
     min-height: 100vh;
-    background: url("Fur-Backgroundd.jpg") no-repeat center center / cover;
+    background: url("Fur Backgroundd.jpg") no-repeat center center / cover;
 }
 /* Navbar */
 .navbar {
@@ -104,6 +104,10 @@ body {
     text-align: left;
     padding: 1rem;
 }
+.hero-content button {
+    text-decoration: none;
+    color: #fff;
+}
 .hero-section h1 {
     font-size: 4rem;
     color: #3d2500;
@@ -117,20 +121,19 @@ body {
     max-width: 800px;
     padding-bottom: 1rem;
 }
-.hero-content a {
+.hero-section button {
     padding: 10px 20px;
     font-size: 1.5rem;
     color: #fff;
     background-color: #3d2500;
     width: 175px;
-    height: 75px;
+    height: 65px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     margin-right: 1rem;
-    text-decoration: none;
 }
-.hero-section a:last-child {
+.hero-section button:last-child {
     margin-right: 0;
 }
 /*Page 2*/
@@ -267,24 +270,32 @@ body {
     .hero-section p {
         font-size: 1.2rem;
     }
+    .hero-section button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    width: 145px;
+    height: 45px;
+    }
     .hero-img img {
     max-width: 90%;
 }
 }
-    @media (max-width: 500px) {
+@media (max-width: 900px) {
     .hero-section h1 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .hero-section p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
-    .hero-section a {
+    .hero-section button {
     padding: 3px 7px;
     font-size: 0.8rem;
-    width: 80px;
+    width: 100px;
     height: 35px;
     margin-right: 0.6rem;
     }
+    .hero-section {
+    margin: 1rem;
 }
 }
 /*Responsive Design for Page 2*/
@@ -318,8 +329,6 @@ body {
     }
 }
 
-
-
 /*Responsive Design for Navigation Bar*/
 @media (max-width: 880px) {
     .navbar {
@@ -346,14 +355,4 @@ body {
         display: block;
         z-index: 1000;
     }
-
 }
-
-
-
-
-
-
-
-
-
