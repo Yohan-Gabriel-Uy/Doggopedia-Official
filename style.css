@@ -277,23 +277,6 @@ body {
     max-width: 90%;
 }
 }
-@media (max-width: 900px) {
-    .hero-section h1 {
-        font-size: 2rem;
-    }
-    .hero-section p {
-        font-size: 1rem;
-    }
-    .hero-section a {
-    padding: 3px 7px;
-    font-size: 0.8rem;
-    width: 80px;
-    height: 35px;
-    margin-right: 0.6rem;
-    }
-    .hero-section {
-    margin: 1rem;
-}
     @media (max-width: 500px) {
     .hero-section h1 {
         font-size: 1rem;
@@ -304,8 +287,8 @@ body {
     .hero-section a {
     padding: 3px 7px;
     font-size: 0.8rem;
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 35px;
     margin-right: 0.6rem;
     }
 }
@@ -371,6 +354,7 @@ body {
     }
 
 }
+
 
 
 
