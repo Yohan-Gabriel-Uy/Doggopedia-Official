@@ -8,7 +8,7 @@ body {
     background-color: #f0f0f0;
     color: #333;
     min-height: 100vh;
-    background: url("Fur Backgroundd.jpg") no-repeat center center / cover;
+    background: url("Fur-Backgroundd.jpg") no-repeat center center / cover;
 }
 /* Navbar */
 .navbar {
@@ -356,5 +356,6 @@ body {
     }
 
 }
+
 
 
