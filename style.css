@@ -104,7 +104,7 @@ body {
     text-align: left;
     padding: 1rem;
 }
-.hero-content button a {
+.hero-content a {
     text-decoration: none;
     color: #fff;
 }
@@ -121,7 +121,7 @@ body {
     max-width: 800px;
     padding-bottom: 1rem;
 }
-.hero-section button {
+.hero-content a {
     padding: 10px 20px;
     font-size: 1.5rem;
     color: #fff;
@@ -357,4 +357,5 @@ body {
         display: block;
         z-index: 1000;
     }
+
 }
